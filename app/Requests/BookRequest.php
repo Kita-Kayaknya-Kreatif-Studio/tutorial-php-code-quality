@@ -4,7 +4,13 @@ namespace App\Requests;
 
 class BookRequest
 {
-    public function validate($request)
+    /**
+     * @param  array<mixed> $request
+     * 
+     * @return array{isValidated: bool, errorMessage: array<string>}
+     * 
+    */
+    public function validate(array $request): array
     {
         $errorMessage = [];
         if (!isset($request['book_name'])) {
