@@ -10,7 +10,17 @@
 1. Kunjungi Dokumentasi tools yang akan dicoba:
     1. [PSR](https://www.php-fig.org/)
     1. [PHP CS Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer)
+        1. Untuk Windows, jalankan perintah `vendor\bin\php-cs-fixer fix path/folder/yang/dituju.php`<br>
+        Contoh: `vendor\bin\php-cs-fixer fix app/Requests/BookRequest.php`
+        1. Untuk Linux, jalankan perintah `vendor/bin/php-cs-fixer fix path/folder/yang/dituju.php`<br>
+        Contoh: `vendor/bin/php-cs-fixer fix app/Requests/BookRequest.php`
+        1. Informasi lebih lanjut, cek dokumentasi.
     1. [PHPStan](https://phpstan.org/)
+        1. Untuk Windows, jalankan perintah `vendor\bin\php-cs-fixer fix path/folder/yang/dituju.php`<br>
+        Contoh: `vendor\bin\php-cs-fixer fix app/Requests/BookRequest.php`
+        1. Untuk Linux, jalankan perintah `vendor/bin/php-cs-fixer fix path/folder/yang/dituju.php`<br>
+        Contoh: `vendor/bin/php-cs-fixer fix app/Requests/BookRequest.php`
+        1. Informasi lebih lanjut, cek dokumentasi.
     1. [GrumPHP](https://github.com/phpro/grumphp)
 1. Let yourself cook! OwO/
 
