@@ -4,7 +4,10 @@ namespace App\Controller;
 
 class BookController
 {
-    public function store()
+    /**
+     * @return array<mixed>
+     */
+    public function store(): array
     {
         $responseCode = 200;
         $message = 'Success';
